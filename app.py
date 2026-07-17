@@ -107,7 +107,7 @@ if st.session_state.page == "home":
 
     with hero_col2:
         st.markdown("<p style='color:#a0a0a0; font-size:0.85rem; margin-bottom:4px;'>🔴 <b>Active System Showcase</b></p>", unsafe_allow_html=True)
-        video_path = "assets/assets/pest_video.mp4"
+        video_path = "assets/pest_video.mp4"
         if os.path.exists(video_path):
             with open(video_path, 'rb') as video_file:
                 video_bytes = video_file.read()
@@ -133,7 +133,7 @@ elif st.session_state.page == "library":
 
     with ref_tab1:
         col1, col2 = st.columns([1, 2])
-        with col1: display_smart_image("assets/assets/leaf hopper.jpg", "https://img.icons8.com/color/150/grasshopper.png")
+        with col1: display_smart_image("assets/leaf hopper.jpg", "https://img.icons8.com/color/150/grasshopper.png")
         with col2:
             st.markdown("#### **📋 Profile Summary:**")
             st.info("The Sugarcane Leaf Hopper (Pyrilla perpusilla) is a destructive, mobile sucking insect.")
@@ -144,7 +144,7 @@ elif st.session_state.page == "library":
 
     with ref_tab2:
         col1, col2 = st.columns([1, 2])
-        with col1: display_smart_image("assets/assets/shoot borer.jpg", "https://img.icons8.com/color/150/caterpillar.png")
+        with col1: display_smart_image("assets/shoot borer.jpg", "https://img.icons8.com/color/150/caterpillar.png")
         with col2:
             st.markdown("#### **📋 Profile Summary:**")
             st.info("The Early Shoot Borer (Chilo infuscatellus) is an aggressive larval pest.")
@@ -155,7 +155,7 @@ elif st.session_state.page == "library":
 
     with ref_tab3:
         col1, col2 = st.columns([1, 2])
-        with col1: display_smart_image("assets/assets/root and base pest.jpg", "https://img.icons8.com/color/150/worm.png")
+        with col1: display_smart_image("assets/root and base pest.jpg", "https://img.icons8.com/color/150/worm.png")
         with col2:
             st.markdown("#### **📋 Profile Summary:**")
             st.info("Subterranean Root Grubs and Termites hide beneath the surface.")
@@ -166,7 +166,7 @@ elif st.session_state.page == "library":
 
     with ref_tab4:
         col1, col2 = st.columns([1, 2])
-        with col1: display_smart_image("assets/assets/white sucking pest.jpeg", "https://img.icons8.com/color/150/bug.png")
+        with col1: display_smart_image("assets/white sucking pest.jpeg", "https://img.icons8.com/color/150/bug.png")
         with col2:
             st.markdown("#### **📋 Profile Summary:**")
             st.info("White Woolly Aphids and Scale Insects establish dense, protective configurations.")
